@@ -1,0 +1,114 @@
+/* ضبط الخط واتجاه الصفحة */
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(10,25 ,30,0.5 );
+  background-image: url(i.jpg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* شريط التنقل */
+nav {
+  background-color: #060442; /* لون بني غامق */
+  padding: 40px;
+  font-size: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  color: #ffebcd; /* لون بيج فاتح عند المرور */
+}
+
+/* محتوى الصفحات */
+h1 {
+  text-align: center;
+  color: #fff; /* بني غامق */
+  margin-top: 40px;
+}
+
+p, ul {
+  text-align: center;
+  font-size: 38px;
+  color: #fff;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+.btn{
+    margin-right: 710px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 50px;
+    width: 150px;
+    background-color: #060350;
+    color: #ffebcd;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+.p{
+    font-size: 40px;
+    
+}
+.foter{
+margin-top: 300px;
+font-size: 20px;
+color: #060442;
+
+
+}
+.home{
+    margin-top: 300px;
+    font-size: 30px;
+
+}
+.ser{
+    margin-top: 300px;
+    font-size: 30px;
+    
+}
+.order{
+    margin-top: 300px;
+}
+.menu{
+    margin-top: 200px;
+}
+hr{
+    width: 20%;
+    height: 13px;
+
+}
+.food{
+    font-size: 40px;
+
+}
