@@ -1,9 +1,7 @@
 
 
+
 /* تنسيق القائمة العلوية */
-
-
-
 
 nav {
   background-color: darkred;
@@ -42,7 +40,9 @@ body {
   margin: 0;
   padding: 0;
   direction: rtl; /* للغة العربية */
-background-image: url(1.jpg.jpg);
+
+background-image: url(3.jpg.jpg);
+
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -56,7 +56,7 @@ div {
 }
 
 h1 {
-  color: #060406d5;
+  color: #1ead5ad5;
 }
 
 button {
@@ -111,7 +111,11 @@ color: #fff;
 }
 
 h1{
+<<<<<<< HEAD
   color: darkred;
+=======
+  color: rgb(20, 17, 17);
+>>>>>>> 2f5b33ab9879a02cad7c387a67c2ea655d07b77b
   font-size: 40px;
   margin-bottom: 40px;
 }
