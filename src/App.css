@@ -41,7 +41,7 @@ body {
   padding: 0;
   direction: rtl; /* للغة العربية */
 
-background-image: url(2.jpg.jpg);
+background-image: url(3.jpg.jpg);
 
 background-repeat: no-repeat;
 background-size: cover;
@@ -111,11 +111,11 @@ color: #fff;
 }
 
 h1{
-<<<<<<< HEAD
+
   color: darkred;
-=======
+
   color: rgb(20, 17, 17);
->>>>>>> 2f5b33ab9879a02cad7c387a67c2ea655d07b77b
+
   font-size: 40px;
   margin-bottom: 40px;
 }
