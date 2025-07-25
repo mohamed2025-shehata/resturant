@@ -4,9 +4,9 @@ function Services(){
         <div className="ser">
             <h1>خدماتنا</h1><hr/>
 <ul>
-    <li>توصيل سريع</li><hr/>
-    <li>حجز طاولات</li><hr/>
-    <li>طلبات خاصه</li><hr/>
+    <li>توصيل سريع</li>
+    <li>حجز طاولات</li>
+    <li>طلبات خاصه</li>
 </ul>
 
 

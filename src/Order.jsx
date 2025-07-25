@@ -1,13 +1,50 @@
-import React from "react";
-function Order (){
-    return(
-        <div className="order">
-<h1>طلب وجبه</h1>
-<button className="btn">اضغط هنا</button>
-<p className="p">يرجي الاتصال بنا بطلب وجبتك</p>
 
 
-        </div>
-    )
+
+
+import React, { useEffect, useState } from 'react';
+
+function OrdersList() {
+  const [orders, setOrders] = useState([]);
+
+  useEffect(() => {
+    const savedOrders = JSON.parse(localStorage.getItem('orders')) || [];
+    setOrders(savedOrders);
+  }, []);
+
+  return (
+    <div>
+      <h1>الطلبات السابقة</h1>
+      {orders.length === 0 ? (
+        <p>لا يوجد طلبات محفوظة</p>
+      ) : (
+        <ul className='ul'>
+          {orders.map((item, index) => (
+            <li key={index}>🍽️ {item}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
 }
-export default Order;
+
+export default OrdersList;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

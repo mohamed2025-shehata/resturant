@@ -1,114 +1,148 @@
-/* ضبط الخط واتجاه الصفحة */
-body {
-  font-family: Arial, sans-serif;
-  direction: rtl;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(10,25 ,30,0.5 );
-  background-image: url(i.jpg.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-/* شريط التنقل */
+/* تنسيق القائمة العلوية */
 nav {
-  background-color: #060442; /* لون بني غامق */
-  padding: 40px;
-  font-size: 50px;
+  background-color: darkred;
+  padding: 20px;
+  border-radius: 10px;
+  
 }
 
 nav ul {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: space-around;
 }
 
-nav li {
-  margin: 0 10px;
+nav ul li {
+  display: inline;
 }
 
-nav li a {
+nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 20px;
 }
 
-nav li a:hover {
-  color: #ffebcd; /* لون بيج فاتح عند المرور */
+nav ul li a:hover {
+  color: #ab9c9c;
+}
+
+/* تنسيق الصفحة العامة */
+body {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  padding: 0;
+  direction: rtl; /* للغة العربية */
+background-image: url(3.jpg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
 }
 
 /* محتوى الصفحات */
+div {
+  text-align: center;
+  padding: 30px;
+}
+
 h1 {
-  text-align: center;
-  color: #fff; /* بني غامق */
-  margin-top: 40px;
+  color: #060406d5;
 }
 
-p, ul {
-  text-align: center;
-  font-size: 38px;
-  color: #fff;
+button {
+  margin: 20px;
+  padding: 20px 20px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
+button:hover {
+  background-color: #d63606;
+
+
+}
+
+/* تنسيق قائمة الطلبات */
 ul {
+  list-style-type: none;
   padding: 0;
 }
 
 ul li {
-  margin: 10px 0;
-}
-.btn{
-    margin-right: 710px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 5px;
-    height: 50px;
-    width: 150px;
-    background-color: #060350;
-    color: #ffebcd;
-    border-radius: 15px;
-    font-size: 20px;
-    cursor: pointer;
-
-
+  background-color: rgb(123, 12, 12);
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 4 10 5px rgba(0,0,0,0.1);
 }
 
-.p{
-    font-size: 40px;
-    
-}
-.foter{
-margin-top: 300px;
-font-size: 20px;
-color: #060442;
-
-
+.home *{
+font-size: 40px;
+color: #fff;
 }
 .home{
-    margin-top: 300px;
-    font-size: 30px;
+  margin-top: 200px;
+}
 
-}
 .ser{
-    margin-top: 300px;
-    font-size: 30px;
-    
+  margin-top: 200px;
+  
 }
-.order{
-    margin-top: 300px;
+.ser ul li{
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+h1{
+  color: darkred;
+  font-size: 40px;
+  margin-bottom: 40px;
 }
 .menu{
-    margin-top: 200px;
-}
-hr{
-    width: 20%;
-    height: 13px;
+  margin-top: 40px;
 
 }
-.food{
-    font-size: 40px;
+.menu button{
+  font-size: 30px;
+  margin-top: 10px;
+  
+}
+
+p{
+  font-size: 40px;
+  color: #fff;
+}
+
+.ul{
+  cursor: pointer;
+  font-size: 30px;
+  color: #fff;
+}
+.foter{
+  margin-top: 300px;
+  
 
 }
+.p{
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
